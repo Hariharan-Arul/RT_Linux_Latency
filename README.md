@@ -183,3 +183,47 @@ done
 gnuplot -persist <plotcmd
 
 ```
+
+<h2>Experiment 1: RT Kernel Raspberry Pi 5 vs Non RT Kernel Ryzen 9 5900HX Laptop</h2>
+
+<h3>Device 1: Rapberrypi with RT Kernel</h3>
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/ac935f9c-bc67-482a-8e16-fe529318795c" width="800px"/>
+</div>
+
+<h3>Device 2: Laptop with Non- RT Kernel</h3>
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/61c118e6-d89c-4d48-b491-3e90efd612a3" width="800px"/>
+</div>
+
+<h3> Experiment Results Comparision </h3>
+
+<div align="center">
+
+**10,000 samples**
+
+| Without RT Kernel | With RT Kernel |
+| --- | --- |
+| ![10k_wo_rt](https://github.com/user-attachments/assets/435b0b54-9222-462b-8b66-b551a3aa26eb) | ![10k_w_rt](https://github.com/user-attachments/assets/80ac620a-6d36-4fb7-ad00-91db7787c728) |
+
+<br>
+
+**100,000 samples**
+
+| Without RT Kernel | With RT Kernel |
+| --- | --- |
+| ![100k_wo_rt](https://github.com/user-attachments/assets/6f8b2829-3345-4646-b770-98398700ccaa) | ![100k_w_rt](https://github.com/user-attachments/assets/51fc6bb8-aa0c-4d7d-aee7-b56b7c33b0da) |
+
+<br>
+
+**1,000,000 samples**
+
+| Without RT Kernel | With RT Kernel |
+| --- | --- |
+| ![1m_wo_rt](https://github.com/user-attachments/assets/03af4d1d-1128-484a-a096-40d01e056591) | ![1m_w_rt](https://github.com/user-attachments/assets/852ef32b-d749-45d0-926b-ff8b1f49621f) |
+
+</div>
+
+

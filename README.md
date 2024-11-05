@@ -183,6 +183,12 @@ done
 gnuplot -persist <plotcmd
 
 ```
+> [!IMPORTANT]
+> `gnuplot` package should be installed before running this script.
+> ```bash
+> sudo apt install gnuplot
+> ```
+
 
 <h2>Experiment 1: RT Kernel Raspberry Pi 5 vs Non RT Kernel Ryzen 9 5900HX Laptop</h2>
 
@@ -226,4 +232,34 @@ gnuplot -persist <plotcmd
 
 </div>
 
+<br>
 
+<h2>References</h2>
+
+<div align="center">
+  
+| Description | Link |
+| --- | --- |
+| `Real Time Applications` | <https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/start> |
+| `Raspberrypi applying kernel patches` | <https://www.raspberrypi.com/documentation/computers/linux_kernel.html#apply-patches> |
+| `rt-tests src code` | <https://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git/tree/src> |
+| `Cyclictest Documentation` | <https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/cyclictest/test-design#option-selection> |
+| `Deadline Scheduling in RT Linux` | <https://www.kernel.org/doc/Documentation/scheduler/sched-deadline.txt> |
+| `RT Kernel installation in x86 systems and plotting latency` | <https://medium.com/@patdhlk/realtime-linux-e97628b51d5d> |
+
+</div>
+
+<br>
+
+<h2> Contributors </h2>
+
+<div align="center">
+  
+| Name | Roll No. |
+| --- | --- |
+| Abhinav R | `CB.EN.U4CSE21001` |
+| Ashwin Narayanan S | `CB.EN.U4CSE21008` |
+| Hariharan A | `CB.EN.U4CSE21021` |
+| Balaji K | `CB.EN.U4CSE21110` |
+
+</div>

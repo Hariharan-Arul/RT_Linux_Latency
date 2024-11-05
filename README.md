@@ -16,7 +16,7 @@ In order to fulfill the requirements of a real-time system, a system must react 
 First select the appropriate RT kernel, whose version is as close as possible to the kernel version of the respective distribution.
 
 > [!TIP]
-> How to check kernel version on Linux?
+> ### How to check kernel version on Linux?
 > ```bash
 > uname -r
 > ```
@@ -77,5 +77,11 @@ make modules_install install
 sudo reboot
 ```
 
-
+> [!IMPORTANT]  
+> ### Verifying the system’s response behavior.
+> After rebooting, you should make sure that the new kernel is properly configured. This is indicated by whether the flags PREEMPT and RT are included in the output of the program uname.
+> ```bash
+>  uname -v | cut -d" " -f1-4 
+> ```
+> If the Output is something like `#1 SMP PREEMPT RT`, kernel is properly configured. 
 

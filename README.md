@@ -1,5 +1,5 @@
 <h1 align="center"> A Case Study On Latency in Real Time Linux </h1>
-In order to fulfill the requirements of a real-time system, a system must react to an external event like an interrupt within a defined time frame.
+In order to fulfill the requirements of a real-time system, a system must react to an external event like an interrupt within a defined time frame along with maximum determinism.
 
 <h2>Steps to give a Linux kernel, Real Time properties</h2>
 <ul>
